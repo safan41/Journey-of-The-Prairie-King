@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpxrwwmn3os62"]
+
+[ext_resource type="SpriteFrames" uid="uid://4lb4vogul41p" path="res://new_sprite_frames.tres" id="1_k4m2i"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(72, 72)
+scale = Vector2(5, 4.5)
+sprite_frames = ExtResource("1_k4m2i")
+frame = 329
